@@ -1,0 +1,1 @@
+export const settings = { host: "https://svetli-lib-catalog-be.onrender.com" };
