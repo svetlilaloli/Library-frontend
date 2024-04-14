@@ -30,7 +30,7 @@ jobs:
           api_key: ${{ secrets.RENDER_TOKEN }}
           wait_deploy: true
   trigger-ui-tests:
-    needs: build
+    needs: deploy-render
     runs-on: ubuntu-latest
     steps:
       - name: Trigger UI tests workflow
