@@ -1,4 +1,4 @@
-# this workflow should happen on staging branch!!!
+# this workflow should happen on staging branch and staging site!!!
 name: Build, deploy, and trigger UI tests
 
 on:
